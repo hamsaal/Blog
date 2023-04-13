@@ -1,5 +1,5 @@
 
-#Node.js Blog Application
+# Node.js Blog Application
 This is a Node.js web application that allows users to create and view blog posts. The application uses the Mongoose database to store blog post data.
 
 #Features
