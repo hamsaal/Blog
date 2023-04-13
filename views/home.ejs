@@ -1,0 +1,10 @@
+<%- include('./partials/header'); -%>
+<h1>HOME</h1>
+<p><%= homecontent %></p>
+<% blogs.forEach((data) =>{ %>
+<h1> <%= data.originalTitle %></h1>
+<p><%= data.post.substring(0,100) %>...<a href="/posts/<%= data.kebabTitle %>">Readmore</a></p>
+<% }) %>
+
+
+<%- include('./partials/footer'); -%>
